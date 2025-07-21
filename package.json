@@ -1,0 +1,14 @@
+{
+  "name": "quill-assistant-engine",
+  "version": "1.0.0",
+  "description": "Quill’s webhook bridge to Google Sheets via Claude",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "express": "^4.18.2",
+    "googleapis": "^118.0.0"
+  }
+}
